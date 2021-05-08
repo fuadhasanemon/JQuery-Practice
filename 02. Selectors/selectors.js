@@ -32,8 +32,32 @@ console.log("hello selectors.js")
 //   $("p:last").css("background", "red");
 // });
 
-// 06 all :event selector
+// 06 all :event(even) selector
 
-$(document).ready(function(){
-  $("p:even").css("background", "pink");
-});
+// $(document).ready(function(){
+//   $("p:even").css("background", "pink");
+// });
+
+// 07 all :event(odd) selector
+
+// $(document).ready(function(){
+//   $("p:odd").css("background", "yellow");
+// });
+
+// 08 all :first-child selector
+
+// $(document).ready(function(){
+//   $("p:first-child").css("background", "yellow");
+// });
+
+// 09 all :first-of-type selector
+
+// $(document).ready(function(){
+//   $("p:first-of-type").css("background", "lime");
+// });
+
+// 10 all :last-child selector
+
+// $(document).ready(function(){
+//   $("p:last-child").css("background", "yellow");
+// });
